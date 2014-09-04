@@ -13,7 +13,7 @@ import java.io.InputStream;
 import java.net.URL;
 import java.net.URLConnection;
 
-import twitter.image.touchgallery.R;
+import twitter_image.Activity.R;
 import twitter_image.TouchView.InputStreamWrapper.InputStreamProgressListener;
 
 public class UrlTouchImageView extends RelativeLayout {

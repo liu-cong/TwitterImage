@@ -1,25 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="twitter.image.touchgallery"
+    package="twitter_image.Activity"
+    android:installLocation="auto"
     android:versionCode="2"
-    android:versionName="1.2"
-    android:installLocation="auto" >
+    android:versionName="1.2" >
 
-    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="16" />
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="16" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
+        android:allowBackup="false"
         android:icon="@drawable/soccerball"
-        android:label="TwitterImage"
-        
-        android:allowBackup="false" >
+        android:label="TwitterImage" >
         <activity
-            android:name="twitter_image.MainActivity" >
+            android:name="twitter_image.Activity.InterfaceActivity"
+            android:label="Search Pictures from Twitter" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>  
+         <activity
+            android:name="twitter_image.Activity.MainActivity">
         </activity>
     </application>
 

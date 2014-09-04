@@ -5,5 +5,11 @@
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">Main Activity</string>
+    <string name="consumer_key">aaJYEt4n4P5I23e6Js1QHmiSX</string>
+    <string name="consumer_secret">XJoBXXFFteZ0JEN0k2QxKIIurOvdBMbxvLghlin6SJV9D5FHOz</string>
+    <string name="access_token">2532076240-4K6HTd8qwK3tNKCRkLvgaKn5RN4C2ifE4rbZYGS</string>
+    <string name="access_token_secret">JpEWlFNm8bFP0eow1nfNeeeNJKpNy3mHK5MGXxjVhBPp0</string>
+    <string name="title_activity_next">NextActivity</string>
+    <string name="action_settings">Settings</string>
 
 </resources>

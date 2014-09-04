@@ -1,0 +1,120 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (javaClasses.cpp:136), pid=16428, tid=5080
+#  fatal error: Invalid layout of preloaded class
+#
+# JRE version:  (7.0_40-b43) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (24.0-b56 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000000000244d800):  JavaThread "Unknown thread" [_thread_in_vm, id=5080, stack(0x0000000002280000,0x0000000002380000)]
+
+Stack: [0x0000000002280000,0x0000000002380000]
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x000000000244d800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=5080, stack(0x0000000002280000,0x0000000002380000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.016 loading class 0x000000000249f970 done
+Event: 0.016 loading class 0x000000000249f390 done
+Event: 0.016 loading class 0x000000000249f370
+Event: 0.016 loading class 0x00000000024a7470
+Event: 0.016 loading class 0x00000000024a7470 done
+Event: 0.016 loading class 0x00000000024a74a0
+Event: 0.017 loading class 0x00000000024a74a0 done
+Event: 0.017 loading class 0x00000000024a74d0
+Event: 0.017 loading class 0x00000000024a74d0 done
+Event: 0.017 loading class 0x000000000249f370 done
+
+
+Dynamic libraries:
+0x00007ff6f3fb0000 - 0x00007ff6f3fe3000 	D:\Research\Google Drive\Programming\eclipse\jre\bin\javaw.exe
+0x00007fff617e0000 - 0x00007fff6198a000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007fff5f0c0000 - 0x00007fff5f1fa000 	C:\WINDOWS\system32\KERNEL32.DLL
+0x00007fff5eea0000 - 0x00007fff5efaf000 	C:\WINDOWS\system32\KERNELBASE.dll
+0x00007fff5d780000 - 0x00007fff5d808000 	C:\WINDOWS\system32\apphelp.dll
+0x00007fff56400000 - 0x00007fff5644f000 	C:\WINDOWS\AppPatch\AppPatch64\AcGenral.DLL
+0x00007fff5f8a0000 - 0x00007fff5f947000 	C:\WINDOWS\system32\msvcrt.dll
+0x00007fff5e920000 - 0x00007fff5e94b000 	C:\WINDOWS\SYSTEM32\SspiCli.dll
+0x00007fff5f060000 - 0x00007fff5f0b1000 	C:\WINDOWS\system32\SHLWAPI.dll
+0x00007fff5f460000 - 0x00007fff5f5d1000 	C:\WINDOWS\system32\USER32.dll
+0x00007fff5f9c0000 - 0x00007fff5fb38000 	C:\WINDOWS\system32\ole32.dll
+0x00007fff5fb40000 - 0x00007fff60f60000 	C:\WINDOWS\system32\SHELL32.dll
+0x00007fff5e160000 - 0x00007fff5e17e000 	C:\WINDOWS\SYSTEM32\USERENV.dll
+0x00007fff5f350000 - 0x00007fff5f3f5000 	C:\WINDOWS\system32\ADVAPI32.dll
+0x00007fff57380000 - 0x00007fff5739b000 	C:\WINDOWS\SYSTEM32\MPR.dll
+0x00007fff612c0000 - 0x00007fff613f7000 	C:\WINDOWS\system32\RPCRT4.dll
+0x00007fff5f950000 - 0x00007fff5f9a7000 	C:\WINDOWS\SYSTEM32\sechost.dll
+0x00007fff61600000 - 0x00007fff617d6000 	C:\WINDOWS\SYSTEM32\combase.dll
+0x00007fff5f200000 - 0x00007fff5f344000 	C:\WINDOWS\system32\GDI32.dll
+0x00007fff5eb50000 - 0x00007fff5eb64000 	C:\WINDOWS\SYSTEM32\profapi.dll
+0x00007fff5d1b0000 - 0x00007fff5d24f000 	C:\WINDOWS\SYSTEM32\SHCORE.dll
+0x00007fff61160000 - 0x00007fff61194000 	C:\WINDOWS\system32\IMM32.DLL
+0x00007fff60f60000 - 0x00007fff61099000 	C:\WINDOWS\system32\MSCTF.dll
+0x00007fff5c930000 - 0x00007fff5cb8a000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9600.17031_none_6242a4b3ecbb55a1\COMCTL32.dll
+0x000000006ac20000 - 0x000000006acf1000 	D:\Research\Google Drive\Programming\eclipse\jre\bin\msvcr100.dll
+0x000000006aeb0000 - 0x000000006b679000 	D:\Research\Google Drive\Programming\eclipse\jre\bin\server\jvm.dll
+0x00007fff59c30000 - 0x00007fff59c39000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x00007fff56d50000 - 0x00007fff56d6f000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007fff612b0000 - 0x00007fff612b7000 	C:\WINDOWS\system32\PSAPI.DLL
+0x00007fff61250000 - 0x00007fff612a8000 	C:\WINDOWS\system32\WS2_32.dll
+0x00007fff56d20000 - 0x00007fff56d4a000 	C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+0x00007fff5f9b0000 - 0x00007fff5f9b9000 	C:\WINDOWS\system32\NSI.dll
+0x00007fff5ec70000 - 0x00007fff5ecba000 	C:\WINDOWS\SYSTEM32\cfgmgr32.dll
+0x00007fff5d9e0000 - 0x00007fff5da06000 	C:\WINDOWS\SYSTEM32\DEVOBJ.dll
+0x000000006adc0000 - 0x000000006adcf000 	D:\Research\Google Drive\Programming\eclipse\jre\bin\verify.dll
+0x000000006ad90000 - 0x000000006adb8000 	D:\Research\Google Drive\Programming\eclipse\jre\bin\java.dll
+0x000000006ad70000 - 0x000000006ad85000 	D:\Research\Google Drive\Programming\eclipse\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=ISO-8859-1 -Xbootclasspath:D:\Research\adt-bundle-windows-x86_64-20130917\sdk\platforms\android-19\android.jar 
+java_command: twitter4j.examples.async.AsyncUpdate
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+CLASSPATH=.;C:\Program Files (x86)\QuickTime\QTSystem\QTJava.zip
+PATH=D:/Research/Google Drive/Programming/eclipse/jre/bin/server;D:/Research/Google Drive/Programming/eclipse/jre/bin;D:/Research/Google Drive/Programming/eclipse/jre/lib/amd64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;P:\Program Files\CTEX\UserData\miktex\bin;P:\Program Files\CTEX\MiKTeX\miktex\bin;P:\Program Files\CTEX\CTeX\ctex\bin;P:\Program Files\CTEX\CTeX\cct\bin;P:\Program Files\CTEX\CTeX\ty\bin;P:\Program Files\CTEX\Ghostscript\gs9.04\bin;P:\Program Files\CTEX\GSview\gsview;P:\Program Files\CTEX\WinEdt;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Common Files\Ulead Systems\MPEG;C:\Program Files (x86)\QuickTime\QTSystem\;P:\Emgu\emgucv-windows-universal-cuda 2.9.0.1922\bin\x64;C:\Program Files (x86)\Cracklock\Bin;C:\Program Files (x86)\IDM Computer Solutions\UEStudio\;D:\Research\Google Drive\Programming\eclipse;
+USERNAME=Administrator
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 8 , 64 bit Build 9200 
+
+CPU:total 8 (4 cores per cpu, 2 threads per core) family 6 model 58 stepping 9, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, aes, erms, ht, tsc, tscinvbit, tscinv
+
+Memory: 4k page, physical 8271536k(4054332k free), swap 8926896k(3280612k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (24.0-b56) for windows-amd64 JRE (1.7.0_40-b43), built on Aug 26 2013 22:38:32 by "java_re" with unknown MS VC++:1600
+
+time: Wed Sep 03 14:40:56 2014
+elapsed time: 0 seconds
+
