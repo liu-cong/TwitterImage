@@ -24,7 +24,11 @@ public class InterfaceActivity  extends Activity{
 	      txtNo = (EditText) findViewById(R.id.editTextNo);
 	      btnSearch.setOnClickListener(new View.OnClickListener() {
 	         public void onClick(View view) {
-                SearchTweets st=new SearchTweets(txtTopic.getText().toString(),"en",Integer.valueOf(txtNo.getText().toString()));
+	        	String q=txtTopic.getText().toString();
+	        	String No=txtNo.getText().toString();
+	        	if(q.length()==0) q="worldcup";
+	        	if(No.length()==0) No="5";
+                SearchTweets st=new SearchTweets(q,"en",Integer.valueOf(No));
 	            Intent intent = new Intent(InterfaceActivity.this, MainActivity.class);
 	            startActivity(intent);
 	         }
